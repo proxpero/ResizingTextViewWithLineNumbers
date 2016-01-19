@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52228F6D1C4E04540036C76F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F6C1C4E04540036C76F /* AppDelegate.swift */; };
+		52228F711C4E04540036C76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52228F701C4E04540036C76F /* Assets.xcassets */; };
+		52228F741C4E04540036C76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52228F721C4E04540036C76F /* Main.storyboard */; };
+		52228F831C4E05370036C76F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F7B1C4E05370036C76F /* Constants.swift */; };
+		52228F841C4E05370036C76F /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F7C1C4E05370036C76F /* LayoutManager.swift */; };
+		52228F851C4E05370036C76F /* LineNumberedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F7D1C4E05370036C76F /* LineNumberedTextViewController.swift */; };
+		52228F861C4E05370036C76F /* ResizingTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F7E1C4E05370036C76F /* ResizingTextContainer.swift */; };
+		52228F871C4E05370036C76F /* String+Resizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F7F1C4E05370036C76F /* String+Resizing.swift */; };
+		52228F881C4E05370036C76F /* TextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F801C4E05370036C76F /* TextContainer.swift */; };
+		52228F891C4E05370036C76F /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F811C4E05370036C76F /* TextStorage.swift */; };
+		52228F8A1C4E05370036C76F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52228F821C4E05370036C76F /* TextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52228F691C4E04540036C76F /* ResizingTextViewWithLineNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizingTextViewWithLineNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52228F6C1C4E04540036C76F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52228F701C4E04540036C76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52228F731C4E04540036C76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52228F751C4E04540036C76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52228F7B1C4E05370036C76F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52228F7C1C4E05370036C76F /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		52228F7D1C4E05370036C76F /* LineNumberedTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberedTextViewController.swift; sourceTree = "<group>"; };
+		52228F7E1C4E05370036C76F /* ResizingTextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizingTextContainer.swift; sourceTree = "<group>"; };
+		52228F7F1C4E05370036C76F /* String+Resizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Resizing.swift"; sourceTree = "<group>"; };
+		52228F801C4E05370036C76F /* TextContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContainer.swift; sourceTree = "<group>"; };
+		52228F811C4E05370036C76F /* TextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStorage.swift; sourceTree = "<group>"; };
+		52228F821C4E05370036C76F /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52228F661C4E04540036C76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52228F601C4E04540036C76F = {
+			isa = PBXGroup;
+			children = (
+				52228F6B1C4E04540036C76F /* ResizingTextViewWithLineNumbers */,
+				52228F6A1C4E04540036C76F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52228F6A1C4E04540036C76F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52228F691C4E04540036C76F /* ResizingTextViewWithLineNumbers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52228F6B1C4E04540036C76F /* ResizingTextViewWithLineNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				52228F6C1C4E04540036C76F /* AppDelegate.swift */,
+				52228F7B1C4E05370036C76F /* Constants.swift */,
+				52228F7C1C4E05370036C76F /* LayoutManager.swift */,
+				52228F7D1C4E05370036C76F /* LineNumberedTextViewController.swift */,
+				52228F7E1C4E05370036C76F /* ResizingTextContainer.swift */,
+				52228F7F1C4E05370036C76F /* String+Resizing.swift */,
+				52228F801C4E05370036C76F /* TextContainer.swift */,
+				52228F811C4E05370036C76F /* TextStorage.swift */,
+				52228F821C4E05370036C76F /* TextView.swift */,
+				52228F701C4E04540036C76F /* Assets.xcassets */,
+				52228F721C4E04540036C76F /* Main.storyboard */,
+				52228F751C4E04540036C76F /* Info.plist */,
+			);
+			path = ResizingTextViewWithLineNumbers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52228F681C4E04540036C76F /* ResizingTextViewWithLineNumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52228F781C4E04540036C76F /* Build configuration list for PBXNativeTarget "ResizingTextViewWithLineNumbers" */;
+			buildPhases = (
+				52228F651C4E04540036C76F /* Sources */,
+				52228F661C4E04540036C76F /* Frameworks */,
+				52228F671C4E04540036C76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizingTextViewWithLineNumbers;
+			productName = ResizingTextViewWithLineNumbers;
+			productReference = 52228F691C4E04540036C76F /* ResizingTextViewWithLineNumbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52228F611C4E04540036C76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = proxpero;
+				TargetAttributes = {
+					52228F681C4E04540036C76F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 52228F641C4E04540036C76F /* Build configuration list for PBXProject "ResizingTextViewWithLineNumbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52228F601C4E04540036C76F;
+			productRefGroup = 52228F6A1C4E04540036C76F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52228F681C4E04540036C76F /* ResizingTextViewWithLineNumbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52228F671C4E04540036C76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52228F711C4E04540036C76F /* Assets.xcassets in Resources */,
+				52228F741C4E04540036C76F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52228F651C4E04540036C76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52228F6D1C4E04540036C76F /* AppDelegate.swift in Sources */,
+				52228F871C4E05370036C76F /* String+Resizing.swift in Sources */,
+				52228F851C4E05370036C76F /* LineNumberedTextViewController.swift in Sources */,
+				52228F881C4E05370036C76F /* TextContainer.swift in Sources */,
+				52228F831C4E05370036C76F /* Constants.swift in Sources */,
+				52228F841C4E05370036C76F /* LayoutManager.swift in Sources */,
+				52228F8A1C4E05370036C76F /* TextView.swift in Sources */,
+				52228F891C4E05370036C76F /* TextStorage.swift in Sources */,
+				52228F861C4E05370036C76F /* ResizingTextContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52228F721C4E04540036C76F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52228F731C4E04540036C76F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52228F761C4E04540036C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52228F771C4E04540036C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52228F791C4E04540036C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizingTextViewWithLineNumbers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.ResizingTextViewWithLineNumbers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52228F7A1C4E04540036C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResizingTextViewWithLineNumbers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.ResizingTextViewWithLineNumbers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52228F641C4E04540036C76F /* Build configuration list for PBXProject "ResizingTextViewWithLineNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52228F761C4E04540036C76F /* Debug */,
+				52228F771C4E04540036C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52228F781C4E04540036C76F /* Build configuration list for PBXNativeTarget "ResizingTextViewWithLineNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52228F791C4E04540036C76F /* Debug */,
+				52228F7A1C4E04540036C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52228F611C4E04540036C76F /* Project object */;
+}
